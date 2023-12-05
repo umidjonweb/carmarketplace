@@ -20,27 +20,15 @@ module.exports = {
          },
       },
       colors: {
-         green: "#02676C",
-         "green-800": "#358589",
-         "green-dark": "#013E41",
          primary: "#5459EA",
-         "primary-800": "#078ABE",
-         "primary-700": "#3366FF",
-         "primary-600": "#D6E0FF",
-         "primary-400": "#DEDFFF",
-         "primary-200": "#EF33FF",
-
-         danger: "#FF2929",
+         danger: "#FA0305",
          "danger-400 ": "#FFD4D4 ",
-
          secondary: "#FF9533",
          "secondary-200": "#FFEAD7",
-
-         black: "#192A3E",
+          black: "#000000",
          "black-800": "#2E3A59",
          "black-600": "#192A3E",
          "black-400": "#505470 ",
-
          success: "#34B87C",
          white: "#ffffff",
          gray: "#9DA3BB",
@@ -48,16 +36,11 @@ module.exports = {
       },
       extend: {
          fontFamily: {
-            "montserrat": ["montserrat-600"],
-            "montserrat-600": ["montserrat-600"],
-            "montserrat-800": ["montserrat-800"],
-            "inter": ["inter-600"],
-            "inter-400": ["inter-400"],
-            "inter-500": ["inter-500"],
-            "inter-600": ["inter-600"],
+            "poppins-300": ["poppins-300"],
             "poppins-400": ["poppins-400"],
             "poppins-500": ["poppins-500"],
             "poppins-600": ["poppins-600"],
+            "angry": ["angry"],
          }
       },
    },
