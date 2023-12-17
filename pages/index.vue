@@ -2,12 +2,11 @@
 
 </script>
 <template>
-   <div class="text-2xl text-danger">
-   
-      <el-button>button</el-button>
+   <div class="text-2 text-danger">
+      <Header />
+      <About />
+
    </div>
-   <p class="font-poppins-500">qweqweqwewq</p>
-   <p class="font-angry">drffffffffff</p>
 </template>
 
 <style></style>

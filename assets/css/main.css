@@ -3,33 +3,55 @@
 @tailwind utilities;
 
 
-@layer  base {
-    @font-face {
-        font-family: 'poppins-600';
-        src: url('/assets/font/Poppins-SemiBold.ttf') format('truetype');
-    }
-    
-    @font-face {
-        font-family: 'poppins-500';
-        src: url('/assets/font/Poppins-Regular.ttf') format('truetype');
-    }
-    
-    @font-face {
-        font-family: 'poppins-400';
-        src: url('/assets/font/Poppins-Medium.ttf') format('truetype');
-    }
-    @font-face {
-        font-family: 'poppins-300';
-        src: url('/assets/font/Poppins-Light.ttf') format('truetype');
-    }
-    @font-face {
-        font-family: 'angry';
-        src: url('/assets/font/Angry.otf') format('truetype');
-    }
+@layer base {
+   @font-face {
+      font-family: 'montserrat-700';
+      src: url('/assets/font/Montserrat-Bold.ttf') format('truetype');
+   }
+
+   @font-face {
+      font-family: 'montserrat-600';
+      src: url('/assets/font/Montserrat-SemiBold.ttf') format('truetype');
+   }
+
+   @font-face {
+      font-family: 'montserrat-500';
+      src: url('/assets/font/Montserrat-Medium.ttf') format('truetype');
+   }
+
+   @font-face {
+      font-family: 'montserrat-400';
+      src: url('/assets/font/Montserrat-Regular.ttf') format('truetype');
+   }
 }
-.el-form--label-top .el-form-item .el-form-item__label{
-    margin-bottom: 3px !important;
+
+.el-form--label-top .el-form-item .el-form-item__label {
+   margin-bottom: 3px !important;
 }
-.el-input{
-    height: 42px;
+
+.el-button {
+   padding: 18px 40px !important;
+   border-radius: 14px 0px 14px 0px !important;
+   font-family: 'montserrat-600';
+}
+
+.el-input {
+   height: 42px;
+}
+
+body {
+   /* background: black; */
+   color: black;
+   font-family: 'montserrat-400', sans-serif;
+}
+
+a,
+p {
+   color: black;
+   font-size: 15px;
+   font-family: 'montserrat-400';
+}
+
+a {
+   font-family: 'montserrat-500';
 }
