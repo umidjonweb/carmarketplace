@@ -2,10 +2,10 @@
 
 </script>
 <template>
-   <div class="text-2 text-danger">
+   <div class="">
       <Header />
       <About />
-
+      <Katalog />
    </div>
 </template>
 

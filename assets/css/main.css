@@ -26,9 +26,24 @@
 }
 
 .el-form--label-top .el-form-item .el-form-item__label {
-   margin-bottom: 3px !important;
+   margin-bottom: 0px !important;
+   font-size: 12px !important;
+   font-family: 'montserrat-500';
+   color: black;
 }
 
+.el-input__wrapper {
+   border-radius: 10px !important;
+   height: 46px !important;
+   background-color: #F2F4F7!important;
+}
+.el-select{
+   width: 100%;
+}
+.el-input__inner{
+   color: black!important;
+   font-family: 'montserrat-500';
+}
 .el-button {
    padding: 18px 40px !important;
    border-radius: 14px 0px 14px 0px !important;
