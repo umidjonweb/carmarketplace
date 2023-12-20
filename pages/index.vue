@@ -6,6 +6,9 @@
       <Header />
       <About />
       <Katalog />
+      <Partners />
+      <Relationship />
+      <Footer />
    </div>
 </template>
 
