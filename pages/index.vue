@@ -2,14 +2,12 @@
 
 </script>
 <template>
-   <div class="">
-      <Header />
+   <NuxtLayout>
       <About />
       <Katalog />
       <Partners />
       <Relationship />
-      <Footer />
-   </div>
+   </NuxtLayout>
 </template>
 
 <style></style>

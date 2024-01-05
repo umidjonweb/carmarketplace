@@ -29,9 +29,11 @@ module.exports = {
          "black-800": "#2E3A59",
          "black-600": "#192A3E",
          "black-400": "#505470 ",
-         success: "#34B87C",
+         success: "#25C418",
          white: "#ffffff",
          gray: "#9DA3BB",
+         "gray-600": "#F2F4F7",
+         "gray-700": "#EFEFEF",
          "gray-800": "#90A0B7",
       },
       extend: {

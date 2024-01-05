@@ -39,7 +39,7 @@ const modules = ref([Navigation])
                    <p class="font-montserrat-700 text-white">EHS system</p>
                 </div>
              </div>
-             <el-button class="absolute -bottom-4 " type="danger">
+             <el-button @click="$router.push('/katalog')" class="absolute -bottom-4 " type="danger">
                 Batafsil info
              </el-button>
           </div>
