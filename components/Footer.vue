@@ -4,7 +4,7 @@
 
 </script>
 <template>
-   <div class="container flex justify-between items-center py-5 mt-20">
+   <div class="container flex justify-between items-center py-5">
        <img class="w-[176px]" src="@/assets/img/logoo.svg" alt="">
        <div class="flex gap-7 items-center">
          <a class="underline" href="#!">Katalog</a>
