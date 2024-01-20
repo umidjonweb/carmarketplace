@@ -1,6 +1,6 @@
 <template>
    <div>
-      <div class="relative flex justify-center  bg-gray-600 rounded-md w-full h-[255px] p-6">
+      <div class="relative flex justify-center  bg-gray-700 rounded-md w-full h-[255px] p-6">
          <img class="h-contain m-auto" src="@/assets/img/car1.png" alt="">
          <img class="absolute top-5 right-5" src="@/assets/img/heart_red.svg" alt="">
       </div>
